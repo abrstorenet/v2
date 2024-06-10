@@ -1,4 +1,4 @@
-#!/bin/bash
+/bin/bash
 
 function send_log(){
 CHATID=$(grep -E "^#bot# " "/etc/bot/.bot.db" | cut -d ' ' -f 3)
@@ -10,11 +10,13 @@ TEXT="
 <b>⚠️ NOTIFICATIONS MULTI LOGIN ⚠️</b>
 <code>────────────────────</code>
 <code>Username  : </code><code>$user</code>
-<code>Limit Ip    : </code><code>$data</code>
+<code>Limit Ip    : </code><code>${iplimit}</code>
+<code>Login Ip    : </code><code>${cekcek}</code>
 <code>────────────────────</code>
 "
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
+
 function vmip(){
 #LIMITVMESSIP
 echo -n > /var/log/xray/access.log
