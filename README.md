@@ -12,6 +12,5 @@
 <pre><code>wget https://raw.githubusercontent.com/abrstorenet/v2/main/Fls/update && chmod +x update && ./update</code></pre>
 ```
 
-### REPOSITORY OTHER 
 <pre><code>wget https://raw.githubusercontent.com/myvpn1/vip/main/repoindo.sh && chmod +x repoindo.sh && ./repoindo.sh
 </code></pre>
