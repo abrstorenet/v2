@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m                    ABRSTORE TUNNEL               \033[0m"
+echo -e "\033[96;1m                    ABR STORE SCRIPT               \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -837,7 +837,7 @@ clear
 echo -e ""
 echo -e ""
 echo -e "\033[96m==========================\033[0m"
-echo -e "\033[92m      INSTALL SUCCES      \033[0m"
+echo -e "\033[92m      INSTALL SUCCESS      \033[0m"
 echo -e "\033[96m==========================\033[0m"
 echo -e ""
 sleep 2
@@ -848,5 +848,5 @@ clear
 echo ""
 echo ""
 echo ""
-read -p "Press [ Enter ]  TO REBOOT"
+read -p "Press [ Enter ]  TO REBOOT VPS"
 reboot
